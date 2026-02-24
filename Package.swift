@@ -22,7 +22,8 @@ let package = Package(
         .target(name: "IQKeyboardToolbarManager",
             dependencies: [
                 "IQKeyboardToolbar",
-                "IQTextInputViewNotification"
+                "IQTextInputViewNotification",
+                "IQKeyboardCore"
             ],
             path: "IQKeyboardToolbarManager",
             resources: [
